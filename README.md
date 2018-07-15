@@ -32,11 +32,11 @@ Este repositorio ha sido creado para el proyecto final de master (TFM) y está e
   https://github.com/rkalakota/Data-Science/zipball/master/
   ```
 
-2. Generar el Dataset de trabajo a partir del conjunto de archivos de simulación.Previamente se necesita que la maquina disponga de PYTHON.Se abre una consola de sistema operativo y se busca donde se ha descargado el repositorio para buscar la carpeta 1_DataAdquistion y ejecutar el SCRIPT de PYTHON.
+2. Generar el Dataset de trabajo a partir del conjunto de archivos de simulación.Previamente se necesita que la maquina disponga de PYTHON.Se abre una consola de ANACONDA PROMPT y se busca donde se ha descargado el repositorio para buscar la carpeta 1_DataAdquistion y ejecutar el SCRIPT de PYTHON.
 
   ```
   cd 1_DataAdquistion
-  py 1.2_GetCSVDataFromSimulation.py
+  python 1.2_GetCSVDataFromSimulation.py
   ```
   Esto genera un archivo CSV llamado salida.csv que contiene los datos para trabajar.
   
