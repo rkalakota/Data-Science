@@ -3,7 +3,7 @@ import pandas as pd
 from pprint import pprint
 from os import listdir
 from os.path import isfile, join, basename
-from glob import glob
+import glob
 from decimal import *
 
 #def diferenciaPresion(A, B, Q): 
@@ -82,7 +82,8 @@ carpetaTrabajo = ""
 for itemCarpeta in  [carpetaTrabajo +"2A1DD7CB-EAA3-4D50-944D-C6F77031592C\\",carpetaTrabajo +"0320BF40-5294-46A7-9CF8-A9DE41A66D3C\\",carpetaTrabajo +"\\389FE1BC-1058-4FF0-B428-42F92B19222A\\", carpetaTrabajo +"\\A8266BA2-5937-45D5-90BD-79875E9E7255\\",carpetaTrabajo +"\\D4147996-D704-4328-8891-3BE1E29E76BE\\", carpetaTrabajo + "\\EE7F8FBF-3683-4435-9C3A-E4A5A3BD0BFD\\"]:
 
     # Obtenemos el nombre de todos los archivos JSON de la carpeta de trabajo
-    ficheros_directorio_1 = ls(itemCarpeta + "*.json")
+    #ficheros_directorio_1 = ls(itemCarpeta + "*.json")
+    ficheros_directorio_1 = glob.glob(itemCarpeta + "*.json")
 
     for f in ficheros_directorio_1:
             with open(f) as data_file: 
