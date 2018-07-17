@@ -2,7 +2,7 @@
 # TFM: Estimación de parámetros hemodinámicos en Aneurismas abdominales mediante técnicas de Machine Learning.
 
 # What? 
-El objetivo de este proyecto es optimizar el cálculo de parámetros hemodinámicos en aneurismas abdominales, para determinar la diferencia de presión en la orta y así determinar la gravedad del paciente.
+El objetivo de este proyecto es optimizar el cálculo de parámetros hemodinámicos en aneurismas abdominales, para determinar la diferencia de presión en la aorta y así determinar la gravedad del paciente.
  
 # Why?
 En la actualidad estos parámetros hemodinámicos son costosos de calcular computacionalmente hablando, ya que requieren de técnicas de segmentación / mallado y de un motor de simulación para la física de fluidos.
@@ -57,6 +57,6 @@ Este repositorio ha sido creado para el proyecto final de master (TFM) y está e
 ## Author:
 Sergio Valero López
 
-Android developer in Centre Internacional de Mètodes Numèrics a l'Enginyeria (CIMNE).
+Android developer at Centre Internacional de Mètodes Numèrics a l'Enginyeria (CIMNE).
 
 rkalakota@gmail.com
