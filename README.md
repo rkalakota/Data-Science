@@ -48,7 +48,9 @@ Este repositorio ha sido creado para el proyecto final de master (TFM) y está e
   2_Analysis \ 0.Analisis_Exploratorio_Datos.ipynb
   2_Analysis \ 1.Modelo.ipynb
   ```
-  
+ _**Atención!**_ Las instrucciones dadas han sido probadas para la plataforma Anaconda 5.2 For Windows Installer (Python 3.6) (https://www.anaconda.com/download/)  con la ventaja de que entonces no hay que instalar ninguna paquete adicional de ninguna librería.
+ 
+ 
 ## Built With
 * [GID] - (https://www.gidhome.com/) - The personal pre and post processor.
 * [Kratos] - (https://github.com/KratosMultiphysics/Kratos) - Kratos Multi-Physics.
