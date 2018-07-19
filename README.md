@@ -48,6 +48,19 @@ Este repositorio ha sido creado para el proyecto final de master (TFM) y está e
   2_Analysis \ 0.Analisis_Exploratorio_Datos.ipynb
   2_Analysis \ 1.Modelo.ipynb
   ```
+  
+Para que los jupyter notebook funcionen perfectamente se ha modificar el PATH donde se encuentra el archivo de datos.
+
+0.Analisis_Exploratorio_Datos.ipynb 
+'''
+[18] df = pd.read_csv('C:\\v_git\\Data-Science\\1_DataAdquisition\\salida.csv', header=0, index_col=0)
+'''
+
+1.Modelo.ipynb 
+'''
+[8] df = pd.read_csv('C:\\v\\1_DataAdquisition\\salida.csv', header=0, index_col=0)
+'''
+
  _**Atención!**_ Las instrucciones dadas han sido probadas para la plataforma Anaconda 5.2 For Windows Installer (Python 3.6) (https://www.anaconda.com/download/)  con la ventaja de que entonces no hay que instalar ninguna paquete adicional de ninguna librería.
  
  
